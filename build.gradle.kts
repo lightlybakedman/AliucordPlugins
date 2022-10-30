@@ -38,7 +38,7 @@ subprojects {
     apply(plugin = "kotlin-android")
 
     aliucord {
-        val baseGithubUrl = "https://raw.githubusercontent.com/scrazzz/AliucordPlugins"
+        val baseGithubUrl = "https://raw.githubusercontent.com/lightlybakedman/AliucordPlugins"
         author("scruz", 794527403580981248L)
         updateUrl.set("$baseGithubUrl/builds/updater.json")
         buildUrl.set("$baseGithubUrl/builds/%s.zip")
