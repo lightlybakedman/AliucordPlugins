@@ -33,7 +33,7 @@ class GoogleIt : Plugin() {
         )
         { ctx ->
             try {
-                val url = Http.QueryBuilder("https://google.it/search")
+                val url = Http.QueryBuilder("https://letmegooglethat.com/")
                         .append("q", ctx.getString("query"))
                         .toString()
                 CommandsAPI.CommandResult(url)
