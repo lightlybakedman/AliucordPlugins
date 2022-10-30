@@ -10,7 +10,7 @@ import com.aliucord.annotations.AliucordPlugin
 import com.discord.api.commands.ApplicationCommandType
 
 @AliucordPlugin
-class GoogleIt : Plugin() {
+class LetMeGoogleThat : Plugin() {
 
     override fun start(ctx: Context) {
         val query = listOf(
@@ -27,7 +27,7 @@ class GoogleIt : Plugin() {
                 )
         )
         commands.registerCommand(
-                "googleit",
+                "LetMeGoogleThat",
                 "Generates a google.it link",
                 query
         )
@@ -39,7 +39,7 @@ class GoogleIt : Plugin() {
                 CommandsAPI.CommandResult(url)
             } catch (throwable: Throwable) {
                 throwable.printStackTrace()
-                CommandsAPI.CommandResult("An error occured", null, false, "GoogleIt")
+                CommandsAPI.CommandResult("An error occured", null, false, "LetMeGoogleThat")
             }
         }
     }

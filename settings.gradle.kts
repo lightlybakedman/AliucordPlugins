@@ -1,7 +1,7 @@
 rootProject.name = "AliucordPlugins"
 
-include(":GoogleIt")
-project(":GoogleIt").projectDir = File("./GoogleIt")
+include(":LetMeGoogleThat")
+project(":LetMeGoogleThat").projectDir = File("./LetMeGoogleThat")
 
 include(":Capitalize")
 project(":Capitalize").projectDir = File("./Capitalize")

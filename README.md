@@ -12,10 +12,10 @@ I will update this README once Aliucord RN becomes stable.
   Plugins made for Aliucord, an Android Discord client mod.
 </div>
 
-## GoogleIt
+## LetMeGoogleThat
 Generates a google.it link.
-- [Help](https://github.com/scrazzz/AliucordPlugins/tree/main/GoogleIt/README.md)
-- [Download](https://github.com/scrazzz/AliucordPlugins/blob/builds/GoogleIt.zip?raw=true)
+- [Help](https://github.com/scrazzz/AliucordPlugins/tree/main/LetMeGoogleThat/README.md)
+- [Download](https://github.com/scrazzz/AliucordPlugins/blob/builds/LetMeGoogleThat.zip?raw=true)
 
 ## Capitalize
 Capitalize Every Word In Your Message.
