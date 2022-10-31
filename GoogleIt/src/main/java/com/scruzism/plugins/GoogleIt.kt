@@ -1,4 +1,4 @@
-package com.scruzism.plugins
+package com.chrispy.plugins
 
 import android.content.Context
 
